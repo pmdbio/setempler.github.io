@@ -1,0 +1,12 @@
+title: www.templer.se
+email: sven.templer(at)gmail.com
+description: > 
+  Welcome to my personal website!
+baseurl: "" 
+url: "http://www.templer.se" 
+permalink: /blog/:year/:month/:day/:title
+twitter_username: setempler
+github_username:  setempler
+
+# Build settings
+markdown: kramdown
