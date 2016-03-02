@@ -12,7 +12,7 @@ Find out more about me here:
 * My workplace at the [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/)
 * My [software](software/) development
 
-# Software
+# Links
 
 Have a look at:
 
