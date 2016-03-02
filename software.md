@@ -13,5 +13,5 @@ permalink: /software/
 
 # Contributions
 
-* [CellPlot](https://github.com/dieterich-lab/CellPlot)
+* [CellPlot](https://github.com/dieterich-lab/CellPlot) - R package for the integrated visualisation of functional term enrichment
 
