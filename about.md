@@ -8,8 +8,9 @@ permalink: /
 
 Find out more about me here:
 
-* [github](https://github.com/setempler)
-* [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/)
+* My [github](https://github.com/setempler) account
+* My workplace at the [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/)
+* My [software](software/) development
 
 # Software
 
