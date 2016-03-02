@@ -8,14 +8,14 @@ permalink: /
 
 Find out more about me here:
 
-* My [github](https://github.com/setempler) account
-* My workplace at the [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/)
+* My [github](https://github.com/setempler){:target="_blank"} account
+* My workplace at the [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/){:target="_blank"}
 * My [software](software/) development
 
 # Links
 
 Have a look at:
 
-* [Julia](http://julialang.org)
-* [R](https://www.r-project.org)
+* [Julia](http://julialang.org){:target="_blank"}
+* [R](https://www.r-project.org){:target="_blank"}
 
