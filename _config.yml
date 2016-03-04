@@ -10,3 +10,6 @@ github_username:  setempler
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-gist
