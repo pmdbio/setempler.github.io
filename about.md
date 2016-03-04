@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: home
 permalink: /
 ---
 
@@ -19,3 +19,6 @@ Have a look at:
 * [Julia](http://julialang.org){:target="_blank"}
 * [R](https://www.r-project.org){:target="_blank"}
 
+# Legal
+
+> Favicon made by Freepik from [flaticon.com](http://www.flaticon.com){:target="_blank"}.

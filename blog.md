@@ -1,11 +1,10 @@
 ---
-layout: page
-title: Blog
+layout: default
+title: blog
 permalink: /blog/
 ---
 
-## Blog posts
-
+# Blog
 {% for post in site.posts %}
 
 **{{ post.date | date: "%b %-d, %Y" }}**
