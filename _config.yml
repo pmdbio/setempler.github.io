@@ -7,6 +7,11 @@ url: "http://www.templer.se"
 permalink: /blog/:year/:month/:day/:title
 twitter_username: setempler
 github_username:  setempler
+collections:
+  manuals:
+    permalink: /manuals/:title
+    output: true
+
 
 # Build settings
 markdown: kramdown
