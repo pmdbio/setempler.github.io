@@ -65,12 +65,13 @@ INSTALL:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-SOFTWARE:
+SOFTWARE EXAMPLE:
 
 ```bash
-brew install \
-  git bash coreutils rsync
-
+brew install git bash coreutils rsync
+#brew update
+#brew upgrade
 brew tap homebrew/science
 brew install R
 ```
+
