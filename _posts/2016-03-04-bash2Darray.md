@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Faking 2D arrays in bash"
-date:   2016-03-02
+date:   2016-03-04
 categories: bash array
 ---
 

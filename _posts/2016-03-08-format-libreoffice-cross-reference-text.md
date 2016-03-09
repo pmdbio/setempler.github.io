@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Format LibreOffice cross reference text"
-date:   2016-03-02
+date:   2016-03-08
 categories: libreoffice macro
 ---
 
