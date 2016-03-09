@@ -1,24 +1,20 @@
 ---
 layout: default
 title: home
-permalink: /
+permalink: /about
 ---
 
-# About
+# about
 
-Find out more about me here:
+## ... me
 
-* My [github](https://github.com/setempler){:target="_blank"} account
-* My workplace at the [Max Planck Institute for Biology of Ageing](http://www.age.mpg.de/the-science/core-facilities/bioinformatics/){:target="_blank"}
-* My [software](software/) development
+### [code](code/) | [blog](blog/) | [bioinformatics@age.mpg.de](https://mpg-age-bioinformatics.github.io){:target="_blank"}
 
-# Links
+## ... my languages
 
-Have a look at:
+### [Julia](http://julialang.org){:target="_blank"} | [R](https://www.r-project.org){:target="_blank"}
 
-* [Julia](http://julialang.org){:target="_blank"}
-* [R](https://www.r-project.org){:target="_blank"}
+### ... support
 
-# Legal
-
-> Favicon made by Freepik from [flaticon.com](http://www.flaticon.com){:target="_blank"}.
+Favicon by Freepik from [flaticon.com](http://www.flaticon.com){:target="_blank"}  
+Jekyll theme by [Fernando Moreira](http://nandomoreira.me/end2end/){:target="_blank"}

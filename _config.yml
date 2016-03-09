@@ -1,25 +1,42 @@
-# general
-title: www.templer.se
-email: sven.templer(at)gmail.com
-description: >
-  Welcome to my personal website!
-twitter_username: setempler
-github_username:  setempler
-url: "http://www.templer.se"
-baseurl: ""
+# build
 
-# blog
 permalink: /blog/:year-:month-:day/:title
-
-# collections
+markdown: kramdown
+highlighter: pygments
+gems: [jekyll-paginate, jekyll-gist]
+paginate: 3
+paginate_path: "/blog/page/:num"
+sass:
+  sass_dir: _scss
+  style: compressed # or 'expanded'
+navbar:
+  - slug: about
+    title: about
+  - slug: blog
+    title: blog
+  - slug: code
+    title: code
+  - slug: manuals
+    title: manuals
 collections:
   manuals:
     permalink: /manuals/:title
     output: true
 
+# about
 
-# Build settings
-markdown: kramdown
-
-gems:
-  - jekyll-gist
+title: www.templer.se
+email: sven.templer(at)gmail.com
+description: >
+  Welcome to my personal website!
+url: "http://www.templer.se"
+baseurl: ""
+author:
+  name: Sven E. Templer
+  job: Bioinformatician
+  bio: "Loving statistics, genomes and strawberries."
+  thumb: /images/avatar.png
+  email: sven.templer@gmail.com
+  url: http://www.templer.se
+  github: https://github.com/setempler
+  twitter: https://twitter.com/setempler

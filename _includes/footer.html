@@ -1,38 +1,14 @@
 <footer class="site-footer">
+  <div class="container">
+    {% include social.html %}
+    <p class="txt-medium-gray">
+      <small>&copy;{{ site.time | date: '%Y' }} All rights reserved.</br>
+        Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> 
+n       and ♥ | 
+        Themed by <a href="http://nandomoreira.me/end2end/" target="_blank">Fernando</a> |
+        Favicon from <a href="http://www.flaticon.com" target="_blank">Freepik</a>
 
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col footer-col-1">
-        <p>{{ site.description }}</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="contact-list">
-          <li>Contact:</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-    </div>
-
+      </small>
+    </p>
   </div>
-
 </footer>
