@@ -31,6 +31,7 @@ description: >
   Welcome to my personal website!
 url: "http://www.templer.se"
 baseurl: ""
+repo: http://github.com/setempler/setempler.github.io
 author:
   name: Sven E. Templer
   job: Bioinformatician
