@@ -1,11 +1,13 @@
 <header class="site-header">
   <div class="container">
     <h1>
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a class="site-title" href="{{ site.baseurl }}/">
+        {{ site.title }}
+        <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" 
+             class="dot" width="39" height="39" 
+             style="margin-left:10px; vertical-align:text-top">
+      </a>
     </h1>
-    <!--
-      <img class="site-title-img" src="/images/avatar.png">
-    -->
     <button type="button" class="sliding-panel-button">
       <span></span>
       <span></span>
