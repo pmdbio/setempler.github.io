@@ -14,3 +14,12 @@ permalink: /about
 
 ### [Julia](http://julialang.org){:target="_blank"} | [R](https://www.r-project.org){:target="_blank"}
 
+## ... legal
+
+Copyright (c) 2016 Sven E. Templer <sven.templer(at)gmail.com>
+
+All content of this site/software is licensed under a
+![Creative Commons License/CC-BY 4.0](https://i.creativecommons.org/l/by/4.0/80x15.png) 
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) 
+if not stated elswhere. See also the file [README.md](https://github.com/setempler/setempler.github.io).
+
