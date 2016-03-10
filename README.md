@@ -6,14 +6,15 @@ Web page repository hosting [www.templer.se](http://www.templer.se).
 
 Copyright (c) 2016 Sven E. Templer
 
-All content of this site/software is licensed under a
+Except where otherwise noted, content of this site/software is licensed under a
 ![Creative Commons License/CC-BY 4.0](https://i.creativecommons.org/l/by/4.0/80x15.png) 
-[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) 
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 # OTHER
 
 For the original theme 'end2end', the following copyright applies:
 
+```
 The MIT License (MIT)
 
 Copyright (c) 2015 Fernando Moreira
@@ -35,4 +36,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
- if not stated elswhere. See also the file LICENSE.
+```
