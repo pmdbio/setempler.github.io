@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: manual
 title:  "R C++11"
 ---
 
@@ -46,6 +46,7 @@ SystemRequirements: C++11
 ```
 
 In the file NAMESPACE you have to put
+
 ```
 LinkingTo()
 ```
@@ -64,7 +65,6 @@ When you store code of your Rcpp functions in program (`.cpp`) or header files
 #include <Rcpp11>
 // [[export]]
 ```
-
 
 ### Initialize Vectors
 

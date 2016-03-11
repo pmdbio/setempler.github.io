@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: manual
 title:  "R tables"
 ---
 
