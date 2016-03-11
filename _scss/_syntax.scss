@@ -1,47 +1,35 @@
+// gist
+
 .blob-code {
   background: #272822 !important;
-  color: #ddd !important; // row text
-  .pl-smi { color: #ddd !important; } // assigned value
+  color: #eeffdd !important; // row text
+  .pl-smi { color: #eeffdd !important; } // assigned value
 }
 
 .js-line-number {
-  color: #ddd !important;
+  color: #eeffdd !important;
 }
 
-.highlight {
-  @extend %clearfix;
-  padding: 0;
-  margin: {
-    top: 1.2em;
-    bottom: 1.2em;
-  };
+// local
 
-  &, .hll, pre, code {
-    background-color: #272822 !important;
-    border: none;
-  }
+.highlighter-rouge {
 
+  color: #272822;
+  padding: 1px;
+  border: none;
   pre {
-    margin: 0;
-    padding: 1.3em;
-    white-space: pre;
-    line-height: 23px;
+    text-align: left;
+    background-color: #272822 !important;
+    color: #eeffdd !important;
     overflow-x: auto;
-    margin-bottom: 0;
+    background: transparent;
+    white-space: pre;
+    padding: 1.3em;
+    margin: 1em;
     word-break: inherit;
     word-wrap: inherit;
-
-    &, code {
-      color: #eeffdd;
-    }
-
     code {
-      white-space: pre;
-      padding: 0 !important;
-
-      * {
-        white-space: nowrap; // this sets all children inside to nowrap
-      }
+      background: transparent;
     }
   }
 

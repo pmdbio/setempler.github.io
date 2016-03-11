@@ -28,13 +28,6 @@ body {
   margin: 0 0 $base-spacing;
   padding: $base-spacing $small-spacing;
 
-  // gist
-  .highlight {
-    background-color: $white-color !important; 
-    color: #93a1a1 !important; 
-  }
-  // end gist
-
   @include media($mobile-up) {
     padding: $base-spacing;
   }
@@ -48,7 +41,7 @@ body {
   border-bottom: 1px solid rgba($light-gray-color, .5);
 
   img {
-    margin-left:10px; 
+    margin-left:10px;
     vertical-align:middle;
     width: 39px;
     height:39px;
