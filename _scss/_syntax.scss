@@ -1,3 +1,13 @@
+.blob-code {
+  background: #272822 !important;
+  color: #ddd !important; // row text
+  .pl-smi { color: #ddd !important; } // assigned value
+}
+
+.js-line-number {
+  color: #ddd !important;
+}
+
 .highlight {
   @extend %clearfix;
   padding: 0;
@@ -34,7 +44,6 @@
       }
     }
   }
-
 
   .c { color: #75715e } /* Comment */
   .err { color: #f2f1f2 } /* Error */
