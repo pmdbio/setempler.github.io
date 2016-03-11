@@ -285,7 +285,7 @@ body.home {
 
 .social {
   @extend %clearfix;
-  padding: $base-spacing 0;
+  padding: $small-spacing 0;
 
   li {
     display: inline-block;
@@ -342,7 +342,7 @@ body.home {
 .site-footer {
   background-color: $white-color;
   border-top: 1px solid rgba($light-gray-color, .5);
-  padding: $base-spacing;
+  padding: 0;
   text-align: center;
 
   p {
