@@ -27,14 +27,12 @@ collections:
 
 title: www.templer.se
 email: sven.templer(at)gmail.com
-description: >
-  Welcome to my personal website!
 url: "http://www.templer.se"
 baseurl: ""
 repo: http://github.com/setempler/setempler.github.io
 author:
   name: Sven E. Templer
-  job: Bioinformatician
+  job: Data Scientist
   bio: "Loving statistics, genomes and strawberries."
   thumb: /images/avatar.png
   email: sven.templer@gmail.com
