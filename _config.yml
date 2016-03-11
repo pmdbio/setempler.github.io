@@ -1,8 +1,13 @@
 # build
 
 permalink: /blog/:year-:month-:day/:title
-markdown: kramdown
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  auto_ids: true
 gems: [jekyll-paginate, jekyll-gist]
 paginate: 3
 paginate_path: "/blog/page/:num"
@@ -22,6 +27,8 @@ collections:
   manuals:
     permalink: /manuals/:title
     output: true
+#safe: true
+#lsi: false
 
 # about
 
