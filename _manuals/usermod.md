@@ -3,15 +3,24 @@ layout: manual
 title:  "user modification"
 ---
 
+Linux user modification.
+
+---
+
+* TOC
+{:toc}
+
+---
+
 ## add
 
-```bash
+```
 groupadd [options] name
 ```
 
 * `-g 1234` - group id (numeric)
 
-```bash
+```
 useradd [options] name
 ```
 
@@ -25,14 +34,14 @@ useradd [options] name
 
 ## modify
 
-```bash
+```
 groupmod [options] name
 ```
 
 * `-n newname` - new group name
 * `-g 1234` - new group id (numeric)
 
-```bash
+```
 usermod [options] name
 ```
 

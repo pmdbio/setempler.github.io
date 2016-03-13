@@ -7,7 +7,14 @@ This is a manual of short length how to use the _Rcpp11_ package in R.
 _Rcpp11_ is a complete redesign of _Rcpp_, targetting C++11.
 It is written as a header component linking R objects to C++ code.
 
-### Installation
+---
+
+* TOC
+{:toc}
+
+---
+
+## Installation
 
 The code of the package _Rcpp11_ is placed on [__github__](http://github.com/Rcpp11/Rcpp11) or on [__CRAN__](http://cran.r-project.org/web/packages/Rcpp11).
 
@@ -36,7 +43,7 @@ install.package("Rcpp11")
 ```
 
 
-### Packages
+## Packages
 
 To use within compilation of an R package, put the following into the package DESCRIPTION file:
 
@@ -56,7 +63,7 @@ LinkingTo()
 * `#' @importFrom Rcpp sourceCpp`
 
 
-### Use .cpp/.hpp Files
+## Use .cpp/.hpp Files
 
 When you store code of your Rcpp functions in program (`.cpp`) or header files
 (`.hpp`) include the Rcpp11 header files and export the function via the RcppExport file add the next lines.
@@ -66,7 +73,7 @@ When you store code of your Rcpp functions in program (`.cpp`) or header files
 // [[export]]
 ```
 
-### Initialize Vectors
+## Initialize Vectors
 
 R style vectors can be created in different ways. One is defining an array with
 `{}` or `create` and another is by importing a C++ object with `import` on the
@@ -90,7 +97,7 @@ NumericVector x = import(begin(v), end(v));
 ```
 
 
-### Concatenate Vectors
+## Concatenate Vectors
 
 Concatenate vectors by calling `fuse`, the function `c` in R.
 ```cpp
@@ -98,11 +105,11 @@ NumericVector x = fuse(y, z);
 ```
 
 
-### S4 Objects
+## S4 Objects
 
 > To be generated ...
 
-### Environments, R Functions
+## Environments, R Functions
 
 ```cpp
 Rcpp::Environment base("package:base");

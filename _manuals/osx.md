@@ -3,6 +3,15 @@ layout: manual
 title:  "osx"
 ---
 
+Some tweaks for the OSX.
+
+---
+
+* TOC
+{:toc}
+
+---
+
 ## terminal
 
 add keys for `tmux` resize:
@@ -59,7 +68,7 @@ set keybinding for launcher
 
 URL: http://brew.sh
 
-INSTALL: 
+INSTALL:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -74,4 +83,3 @@ brew install git bash coreutils rsync
 brew tap homebrew/science
 brew install R
 ```
-

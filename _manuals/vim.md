@@ -3,6 +3,15 @@ layout: manual
 title:  "vim"
 ---
 
+Control the `vim` editor.
+
+---
+
+* TOC
+{:toc}
+
+---
+
 ## modes
 
 ```

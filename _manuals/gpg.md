@@ -3,6 +3,15 @@ layout: manual
 title:  "gpg"
 ---
 
+Some information on how to use `gpg`.
+
+---
+
+* TOC
+{:toc}
+
+---
+
 ## links
 
 * [gnupg manual][gpgman]
@@ -17,9 +26,9 @@ Then run:
 gpg --gen-key
 ```
 
-## import/export 
+## import/export
 
-* public [pgp server][mit] from MIT 
+* public [pgp server][mit] from MIT
 * gpg manual [section][gpgmanio]
 
 ```bash
