@@ -4,6 +4,7 @@ title:  "notebook"
 ---
 
 A how-to use the jupyter (iPython) notebook (for Julia).
+
 ---
 
 * TOC
