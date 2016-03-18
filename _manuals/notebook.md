@@ -47,7 +47,7 @@ jupyter notebook -ip hostname -port 8888 \
 Configuration can be stored in `~/.jupyter/jupyter_notebook_config.py`,
 for example:
 
-```
+```python
 c.NotebookApp.password = u'sha1:YOUR_SHA1_STRING_HERE'
 c.NotebookApp.certfile = u'~/.ssl/jupyter.pem'
 c.NotebookApp.keyfile = u'~/.ssl/jupyter.key'
