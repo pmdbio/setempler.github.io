@@ -17,6 +17,7 @@ A how-to use the jupyter (iPython) notebook (for Julia).
 Install python's package manager `pip`.
 
 ```bash
+# bash
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --user
 pip install --user jupyter
@@ -25,13 +26,23 @@ pip install --user jupyter
 Create an openssl certificate.
 
 ```bash
+# bash
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 \
   -keyout jupyter.key -out jupyter.pem
+```
+
+Retrieve the sha1 by supplying a password to:
+
+```python
+# python
+from notebook.auth import passwd
+passwd()
 ```
 
 Install the `julia` kernel (optional).
 
 ```
+# julia
 Pkg.add("IJulia")
 Pkg.build("IJulia")
 ```
@@ -41,6 +52,7 @@ Pkg.build("IJulia")
 Start the notebook.
 
 ```bash
+# bash
 jupyter notebook -ip hostname -port 8888 \
   --certfile jupyter.key --keyfile jupyter.key
 ```
@@ -61,6 +73,7 @@ c.NotebookApp.notebook_dir = u'~/notebooks'
 Then start the notebook.
 
 ```bash
+# bash
 jupyter notebook
 ```
 
