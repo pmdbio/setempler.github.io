@@ -18,7 +18,8 @@
   padding: 1px;
   border: none;
   pre {
-    text-align: left;
+    text-align: left; // unused?
+    //error: first line indentation
     background-color: #272822 !important;
     color: #eeffdd !important;
     overflow-x: auto;
