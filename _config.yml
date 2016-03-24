@@ -27,6 +27,8 @@ collections:
   manuals:
     permalink: /manuals/:title
     output: true
+exclude:
+  - "*.Rmd"
 #safe: true
 #lsi: false
 
