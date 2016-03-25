@@ -21,7 +21,6 @@ export knit_code
 MAN_DIR = _manuals
 MAN_OBJS = $(wildcard $(MAN_DIR)/*.Rmd)
 MAN_OBJS := $(MAN_OBJS:.Rmd=.md)
-NOTES =
 
 $(MAN_DIR)/%.md: $(MAN_DIR)/%.Rmd
 	@echo
