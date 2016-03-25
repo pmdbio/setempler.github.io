@@ -9,8 +9,8 @@ categories: jekyll knitr rmd
 
 To use R markdown (ending `.Rmd`) files with jekyll, one needs to render/compile
 them first. You can generate static html files easily by using an R command such
-as `rmarkdown::render("file.Rmd")`, when you have **R** and the package
-**rmarkdown** and its dependency **knitr** installed.
+as `rmarkdown::render("file.Rmd")`, when you have *R* and the package
+*rmarkdown* and its dependency *knitr* installed.
 
 Nevertheless, `.html` output files do not contain jekyll header information any
 more (like layout and title). On the other hand, the rendered markdown `.md`
@@ -87,7 +87,7 @@ One can also use a `Makefile` to automate this.
 The Makefile must be placed into the root of the project, where the output
 folders `_manuals` and `images` reside. The Makefile checks every `.md` file,
 and if it has a source file (with the same name, but a `.Rmd` ending).
-In case the source was modified, the script is echoed to **R** creating the
+In case the source was modified, the script is echoed to *R* creating the
 output as above.
 
 ```make
