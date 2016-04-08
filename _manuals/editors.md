@@ -59,7 +59,7 @@ atom.commands.add 'atom-text-editor',
 
 Do not remove trailing whitespace from markdown files:
 
-* open settings folder
+* open `~/.atom/keymap.cson`
 * go to file `config.cson`
 * add the following:
 
