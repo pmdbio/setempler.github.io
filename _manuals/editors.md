@@ -38,6 +38,8 @@ Syntax:
 
 ### Config
 
+#### R `<-` shortcut
+
 Insert R assignment string `" <- "` with a keybinding:
 
 ```bash
@@ -51,6 +53,23 @@ atom.commands.add 'atom-text-editor',
 # ~/.atom/keymap.cson
 'atom-text-editor':
   'alt--': 'custom:insert-rrow'
+```
+
+#### Ignore markdown whitespace
+
+Do not remove trailing whitespace from markdown files:
+
+* open settings folder
+* go to file `config.cson`
+* add the following:
+
+```json
+".md.text":
+  editor:
+    softWrap: false
+  whitespace: 
+    removeTrailingWhitespace: false
+    ignoreWhitespaceOnCurrentLine: false
 ```
 
 ## Sublime Text 3
