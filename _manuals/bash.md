@@ -4,6 +4,7 @@ title:  "bash"
 ---
 
 Information on the bourne again shell (bash).
+
 ---
 
 * TOC
