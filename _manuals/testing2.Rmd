@@ -1,0 +1,32 @@
+---
+layout: manual
+title: "__testing R markdown"
+---
+
+---
+
+Content:
+
+* TOC
+{:toc}
+
+---
+
+## testing
+
+```{r}
+plot(1,1)
+```
+
+```{r}
+print("foo")
+```
+
+```{r}
+print(t)
+```
+
+
+```r
+print # without {r} markdown
+```
