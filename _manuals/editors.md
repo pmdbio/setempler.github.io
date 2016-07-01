@@ -90,7 +90,8 @@ Do not remove trailing whitespace from markdown files:
 * Select `Colorsublime: Install Theme`
 * Choose from list
 * Add to `Preferences` > `Settings - User`
-  ```json
+
+	 ```json
 "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 "theme": "Flatland Dark.sublime-theme",
 ```
