@@ -94,6 +94,7 @@ Do not remove trailing whitespace from markdown files:
 * `SublimeGit`
 * `HexViewer`
 * `Julia` and `JuliaCompletions`
+* `MarkdownPreview
 
 ### User Configuration
 
@@ -112,10 +113,11 @@ Example for enhanced configuration:
     "remember_open_files": false,
     "show_encoding": true,
     "tab_size": 4,
+    "rulers": [100],
     "ignored_packages":
     [
-        "Markdown",
         "Vintage"
     ]
 }
 ```
+
