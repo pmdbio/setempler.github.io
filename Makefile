@@ -1,5 +1,3 @@
-.PHONY : markdown show list check
-
 define knit_code
 require(knitr)
 args <- commandArgs(T)
@@ -23,19 +21,27 @@ MAN_OBJS = $(wildcard $(MAN_DIR)/*.Rmd)
 MAN_OBJS := $(MAN_OBJS:.Rmd=.md)
 
 $(MAN_DIR)/%.md: $(MAN_DIR)/%.Rmd
-	@echo
-	@echo "$$knit_code" | \
-	R -q --no-save --args $< "$(MAN_DIR)/" "images/" 2>&1 | \
-	sed -e '/^[^A-Za-z]/d' -e '/^[ ]*$$/d'
+    @echo
+    @echo "$$knit_code" | \
+    R -q --no-save --args $< "$(MAN_DIR)/" "images/" 2>&1 | \
+    sed -e '/^[^A-Za-z]/d' -e '/^[ ]*$$/d'
 
+.PHONY : markdown
 markdown: $(MAN_OBJS)
 
+.PHONY : show
 show:
-	@echo Rmd files:
-	@printf '  %s\n' $(MAN_OBJS:.md=.Rmd)
+    @echo Rmd files:
+    @printf '  %s\n' $(MAN_OBJS:.md=.Rmd)
 
+.PHONY : list
 list:
-	ls -Rl _manuals/ images/
+    ls -Rl _manuals/ images/
 
+.PHONY : server
+server:
+    jekyll serve
+
+.PHONY : check
 check:
-	open http://localhost:4000
+    open http://localhost:4000
