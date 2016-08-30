@@ -121,3 +121,10 @@ Example for enhanced configuration:
 }
 ```
 
+Syntax highlight defaults:
+
+* Open a file with a certain extension
+* Select in the menu (OSX):
+    * View > Syntax > Open all with current extension as... > *select syntax*
+
+
