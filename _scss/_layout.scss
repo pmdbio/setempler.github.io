@@ -20,6 +20,11 @@ body {
     left: $small-spacing;
     right: $small-spacing;
   };
+
+  strong {
+    font-weight: $font-weight-semibold;
+  }
+
 }
 
 .card {
