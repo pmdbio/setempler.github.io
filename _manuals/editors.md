@@ -113,6 +113,7 @@ Example for enhanced configuration:
     "remember_open_files": false,
     "show_encoding": true,
     "tab_size": 4,
+    "translate_tabs_to_spaces": true,
     "rulers": [100],
     "ignored_packages":
     [
