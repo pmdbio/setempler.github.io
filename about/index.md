@@ -49,7 +49,7 @@ analysis and consulting* for state of the art research.
 * IT Systems I prefer and am trained to use are
 
 	* **Linux Servers** - from web-, database-, compute- to multimedia workstations
-    * **OSX Systems** - a great platform to 
+    * **Mac OS Systems** - great and easy to use platform to connect to IT infrastructure
 
 ## further information
 
