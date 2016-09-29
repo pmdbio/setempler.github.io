@@ -6,30 +6,32 @@ layout: default
 
 Welcome to my homepage!
 
-Maybe you are interested about what you can find here and about my person - so keep on reading!
+Here you will find an introduction about myself, and some links to sources 
+where you can find out what I am interested in.
 
+## me
 
-## an introduction to myself
+My career started with *Audi*, where I trained and worked as 
+**Industrial Mechanic**, maintaining the production of an older A3 model - 
+*Vorsprung durch Technik*.
 
-I am trained as **Biologist**, and **industrial mechanic** in the traditional sence (university degree and apprenticeship, respectively).
-After working in the car manufacturing industry (with Audi - you know *Vorsprung durch Technik*? Or at least the four rings ...), I decided to get to know more about life, so I studied Biology.
+Being interested in the mechanics of also living things, I decided to advance
+my knowledge, and studied to become a **Biologist**.
+These were also the years, where I started to be a **Linux enthusiast**.
 
-Next step was a **PhD research project** - very common for Biologists.
-This I did in the field of agricultural science, to investigate food security in terms of sustainable production.
-One great thing about it, was that I was working on barley - the crop which is famous for it's use in whiskey and beer production.
-At this position, I learned a lot about **statistics** and **data analysis**.
-And even more, that I very much like **engineering software**.
+Fascinated about life science, I became a **PhD student**, studying an important
+crop plant - barley (the one related to *whiskey* and *beer*). During this great project, I learned a lot about *statistical analysis*,
+*programming* and *computational biology*.
 
-After that, I started a job as a **programmer** & **data analyst** in bioinformatics at a service unit of the Max Planck Society.
-Here I could apply a lot of my knowledge about writing software for analysis of data, helping
-scientists to unravel the mysteries of the biology of ageing - and to deal with **big data**.
-Working on large **computing cluster** systems, as well as administrating software platforms as a service (PaaS) also got me into managing **Linux** systems.
+To improve my skills in *data science* and *human genetics*, I took a job as
+**Programmer & Data Analyst** at a bioinformatics core facility of a renowned
+research institute. Nimbly handling of *big data* on *high performance compute
+clusters* is my daily joy. With this tools, I can provide excellent *biostatistical
+analysis and consulting* for state of the art research.
 
-This is my *curriculum vitae* for now - what's up in the future? I am always looking for new and exciting tasks to develop my skills!
+## technologies
 
-## my technical expertise and interests
-
-* Software engineering in ...
+* I prefer to engineer software in the languages
 
     * **[Julia][jl]{:target="_blank"}** - a modern language for statistical computing
     * **[R][r]{:target="_blank"}** - a statistical computing language
@@ -37,39 +39,28 @@ This is my *curriculum vitae* for now - what's up in the future? I am always loo
     * **[Python][py]{:target="_blank"}** - an interpreted programming and scripting language
     * **[bash][bash]{:target="_blank"}** - shell programming
 
-* Data analysis ...
+* The fields of statistical analysis I am competent and interested in are
 
-    * **Machine Learning** - learn from data, predict the future
     * **Linear Models** - estimate and predict effects
     * **Multivariate Analysis** - find patterns in data
     * **Genetical Statistics** - analyse genetic data (from sequencing to population genetics)
+    * **Machine Learning** - learn from data, predict the future
+    
+* IT Systems I prefer and am trained to use are
 
-* Systems administration ...
+	* **Linux Servers** - from web-, database-, compute- to multimedia workstations
+    * **OSX Systems** - a great platform to 
 
-	* **Linux Servers**
-    * **Web Servers**
-    * **OSX Systems**
+## further information
 
-## some ressources
+Find me at twitter (**[@setempler][twt]**), follow my **[blog](/blog)**, or read about my
+**[research][rgate]**.
 
-Follow the profiles listed for some ideas about my interests:
+Parts of software engineering and documentation I am involved with, can be seen on this site's
+sections **[Code](/code)** and **[Manuals](/manuals)**, or on my **[github][hub]** profile.
 
-* **[twitter][twt]**
-* **[blog](/blog)**
-* **[research gate][rgate]**
-
-If you like to know about (public) software I contribute, or just want to get an idea about my software engineering capabilites, look at:
-
-* **[Code](/code)** section
-* **[github][hub]** profile
-
-For some information about the usage of IT and software related tools, visit:
-
-* **[Manuals](/manuals)** section
-
-## contacting me
-
-For any questions or interests, do not hesitate to contact me!
+Interested in my profile? I am always looking forward to meet nice people and get inspired by new
+discoveries and technologies - please do not hesitate to contact me!
 
 [hub]: https://github.com/setempler
 [cpp]: https://isocpp.org
