@@ -16,6 +16,8 @@ Content:
 
 ## Vim
 
+**Plugin Manager**
+
 Install [Vundle](https://github.com/VundleVim/Vundle.vim), a vim plugin manager via:
 
 ```bash
@@ -61,11 +63,11 @@ Some more commands are:
 :h vundle         - for more details or wiki for FAQ
 ```
 
+---
+
 ## Sublime Text 3
 
 [Homepage](http://www.sublimetext.com)
-
-### Setup
 
 **Application Icon**
 
@@ -147,27 +149,27 @@ Some more commands are:
 }
 ```
 
+---
+
 ## Atom
 
 [Homepage](https://atom.io)
 
-### Packages
+**Packages**
 
-* script
-* vim-mode
-* language-r
-* language-julia
-* language-rmarkdown (from [github](https://github.com/juba/language-rmarkdown))
-* minimap
-* minimap-git-diff
-* minimap-cursorline
-* minimap-highlight-selected
+* `script`
+* `vim-mode`
+* `language-r`
+* `language-julia`
+* `language-rmarkdown` (from [github](https://github.com/juba/language-rmarkdown))
+* `minimap`
+* `minimap-git-diff`
+* `minimap-cursorline`
+* `minimap-highlight-selected`
 
-### Config
+**Config Keyboard Shortcuts**
 
-#### R `<-` shortcut
-
-Insert R assignment string `" <- "` with a keybinding:
+To insert R assignment string `" <- "` with a keybinding,
 
 ```bash
 # ~/.atom/init.coffee
@@ -182,7 +184,7 @@ atom.commands.add 'atom-text-editor',
     'alt--': 'custom:insert-rrow'
 ```
 
-#### Ignore markdown whitespace
+**Ignore markdown whitespace**
 
 Do not remove trailing whitespace from markdown files:
 
