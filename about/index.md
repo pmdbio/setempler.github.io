@@ -18,25 +18,25 @@ where you can find out what I am interested in.
 
 ## technologies
 
-* I prefer to engineer software in the languages
+I prefer to engineer software in the languages
 
-    * **[Julia][jl]{:target="_blank"}** - a modern language for statistical computing
-    * **[R][r]{:target="_blank"}** - a statistical computing language
-    * **[C++][cpp]{:target="_blank"}** - a general purpose programming language
-    * **[Python][py]{:target="_blank"}** - an interpreted programming and scripting language
-    * **[bash][bash]{:target="_blank"}** - shell programming
+* **[Julia][jl]{:target="_blank"}** - a modern language for statistical computing
+* **[R][r]{:target="_blank"}** - a statistical computing language
+* **[C++][cpp]{:target="_blank"}** - a general purpose programming language
+* **[Python][py]{:target="_blank"}** - an interpreted programming and scripting language
+* **[bash][bash]{:target="_blank"}** - shell programming
 
-* The fields of statistical analysis I am competent and interested in are
+The fields of statistical analysis I am competent and interested in are
 
-    * **Linear Models** - estimate and predict effects
-    * **Multivariate Analysis** - find patterns in data
-    * **Genetical Statistics** - analyse genetic data (from sequencing to population genetics)
-    * **Machine Learning** - learn from data, predict the future
-    
-* IT Systems I like and am trained to use are
+* **Linear Models** - estimate and predict effects
+* **Multivariate Analysis** - find patterns in data
+* **Genetical Statistics** - analyse genetic data (from sequencing to population genetics)
+* **Machine Learning** - learn from data, predict the future
 
-	* **Linux Servers** - from web-, database-, compute- to multimedia workstations
-    * **Mac OS Systems** - great and easy to use platform to connect to IT infrastructure
+IT Systems I like and am trained to use are
+
+* **Linux Servers** - from web-, database-, compute- to multimedia workstations
+* **Mac OS Systems** - great and easy to use platform to connect to IT infrastructure
 
 ## further information
 
