@@ -12,36 +12,6 @@ Some useful linux and unix command line tools explained.
 
 ---
 
-## Encryption (`gpg`)
-
-**Notes**
-
-* [gnupg manual][gpgman]
-* [gpg chart][gpgchart]
-* create a [passphrase][pw] using [Diceware][dw]
-* public [pgp server][mit] from MIT
-* gpg manual [section][gpgmanio]
-
-```bash
-### create a private/public key pair
-gpg --gen-key
-
-### import/export
-gpg --import public.key
-gpg --export -a "user id" > public.key
-gpg --export-secret-key -a "user id" > private.key
-gpg --keyserver certserver.pgp.com --search key "name"
-gpg --keyserver certserver.pgp.com --recv-key "key id"
-gpg --keyserver certserver.pgp.com --send-key "user id"
-
-### edit
-gpg --list-keys
-gpg --list-secret-keys
-gpg --edit-key "user id"
-```
-
----
-
 ## Archiving (`tar` et al.)
 
 **Notes**
@@ -98,6 +68,36 @@ gpg -d directory.tar.gpg | tar xz
 
 ---
 
+## Encryption (`gpg`)
+
+**Notes**
+
+* [gnupg manual][gpgman]
+* [gpg chart][gpgchart]
+* create a [passphrase][pw] using [Diceware][dw]
+* public [pgp server][mit] from MIT
+* gpg manual [section][gpgmanio]
+
+```bash
+### create a private/public key pair
+gpg --gen-key
+
+### import/export
+gpg --import public.key
+gpg --export -a "user id" > public.key
+gpg --export-secret-key -a "user id" > private.key
+gpg --keyserver certserver.pgp.com --search key "name"
+gpg --keyserver certserver.pgp.com --recv-key "key id"
+gpg --keyserver certserver.pgp.com --send-key "user id"
+
+### edit
+gpg --list-keys
+gpg --list-secret-keys
+gpg --edit-key "user id"
+```
+
+---
+
 ## Finding files (`find`)
 
 ```bash
@@ -109,6 +109,66 @@ find . ! -readable
 find . -perm 770  # exact for user, group, world
 find . -perm -660 # exact for user, group
 find . -perm -g+r  # exact for group
+```
+
+---
+
+## HPC Workload Manager (`slurm`)
+
+**Notes**
+
+See information on the [homepage][slurm]
+**Commands**
+
+```bash
+### get information
+
+# show queues, and update every *N*th second
+smap -i N
+squeue -i N
+
+# queue details
+squeue -j ID[,ID,...] # per job
+       -p NAME        # per partition
+       -l             # increase output
+
+# tabular info
+sinfo -i N            # as in squeue
+      -p NAME 
+      -l
+
+# list info
+scontrol show -d                    # more details
+              job|node|partition ID
+
+### control jobs
+
+# stop jobs
+scancel -t PENDING|RUNNING|SUSPENDED # by state
+        -n NAME                      # by job name
+        -p NAME                      # by partition name
+        -w node[1-5,7]               # by hostname
+
+# modify
+scontrol suspend|resume|hold ID
+
+### submit job scripts
+
+sbatch -J NAME              # jobname
+       -p PARTITION[,...]   # partition
+       -n N                 # number of tasks
+       -c N                 # number of cpus per task
+       -N N                 # number of hosts
+       -w HOST[,...]        # host list
+       -d afterok:ID[,...]  # dependency
+       -t HH:MMSS           # runtime
+       -o STDOUT            # stdout (and stderr if not specified)
+       -e STDERR            # stderr
+       --mem MB             # memory
+       -a 0-N[%M]           # number of array jobs [at a time]
+                            # %j = job ID
+                            # %A = array ID
+                            # %a = array index
 ```
 
 ---
@@ -184,3 +244,4 @@ usermod [options] name
 [dw]: http://world.std.com/~reinhold/diceware.html
 [mit]: https://pgp.mit.edu
 [gpgmanio]: https://www.gnupg.org/gph/en/manual/x457.html
+[slurm]: http://slurm.schedmd.com/slurm.html
