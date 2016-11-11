@@ -11,23 +11,10 @@ where you can find out what I am interested in.
 
 ## me
 
-My career started with *Audi*, where I trained and worked as 
-**Industrial Mechanic**, maintaining the production of an older A3 model - 
-*Vorsprung durch Technik*.
-
-Being interested in the mechanics of also living things, I decided to advance
-my knowledge, and studied to become a **Biologist**.
-These were also the years, where I started to be a **Linux enthusiast**.
-
-Fascinated about life science, I became a **PhD student**, studying an important
-crop plant - barley (the one related to *whiskey* and *beer*). During this great project, I learned a lot about *statistical analysis*,
-*programming* and *computational biology*.
-
-To improve my skills in *data science* and *human genetics*, I took a job as
-**Programmer & Data Analyst** at a bioinformatics core facility of a renowned
-research institute. Nimbly handling of *big data* on *high performance compute
-clusters* is my daily joy. With this tools, I can provide excellent *biostatistical
-analysis and consulting* for state of the art research.
+* Career started at *Audi AG* as **Industrial Mechanic** - *Vorsprung durch Technik*
+* Studying **Biology** at *Wuerzburg University* and becoming a **Linux enthusiast**
+* Studying *barley* to improve products among *whiskey* and *beer* (: at the *Max Planch Institute for Plant Breeding Research, Cologne* and becoming skilled in **Statistics** and **Programming**
+* Consulting and acting as **Data Analyst** in the area of **Bioinformatics** at the *Max Planch Institute for Biology of Ageing, Cologne*
 
 ## technologies
 
@@ -46,7 +33,7 @@ analysis and consulting* for state of the art research.
     * **Genetical Statistics** - analyse genetic data (from sequencing to population genetics)
     * **Machine Learning** - learn from data, predict the future
     
-* IT Systems I prefer and am trained to use are
+* IT Systems I like and am trained to use are
 
 	* **Linux Servers** - from web-, database-, compute- to multimedia workstations
     * **Mac OS Systems** - great and easy to use platform to connect to IT infrastructure
@@ -54,7 +41,7 @@ analysis and consulting* for state of the art research.
 ## further information
 
 Find me at twitter (**[@setempler][twt]**), follow my **[blog](/blog)**, or read about my
-**[research][rgate]**.
+**[research][scholar]**.
 
 Parts of software engineering and documentation I am involved with, can be seen on this site's
 sections **[Code](/code)** and **[Manuals](/manuals)**, or on my **[github][hub]** profile.
@@ -69,4 +56,5 @@ discoveries and technologies - please do not hesitate to contact me!
 [jl]: http://julialang.org
 [r]: https://www.r-project.org
 [rgate]: https://www.researchgate.net/profile/Sven_Templer/publications
+[scholar]: https://scholar.google.de/citations?user=G5ryn90AAAAJ&hl=en
 [twt]: https://twitter.com/setempler
