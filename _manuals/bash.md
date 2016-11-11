@@ -14,17 +14,19 @@ Information on the bourne again shell (bash).
 
 ## Environment
 
-*login shell*  
+**Shell Type**
+
+login shell
 
 * from another host (ssh)  
 * from local text console (tty)  
 * OSX Terminal
 
-*interactive shell*
+interactive shell
 
 * terminal (emulator), e.g. gnome-terminal, xterm
 
-*environment files*
+**Environment Files**
 
 * `/etc/profile`: login shell
 * `~/.bash_profile`: login shell
@@ -33,87 +35,64 @@ Information on the bourne again shell (bash).
 
 ## Variables
 
-* string variable example: `$V`
-* array variable example: `${A[@]}`
-
-### define
+**Methods**
 
 ```bash
-# strings
-declare S
-S=string
-S+=text # concatenate
+### declare
+declare S                  # string
+declare A                  # array
+declare -a AA              # array, associative
 
-# defaults
-S=${X:-default} # if $X is empty, use 'default'
+### assign
+S="string"
+A[0]="value"
+AA["key value"]="value"
+S=${X:-$Y}                 # supply default value ($Y), if $X is empty
 
-# array
-declare -a A
-A[0]=value
-A+=(value) # append
-
-# associative array
-declare -A Aa
-Aa[key]=value
-Aa["spaced key"]=value
-Aa+=(value) # append
-```
+### append
+S+="text"                  # append string
+A+=("value")               # append element
 
 ### remove pattern
-
-```bash
 # from front
-${S#pattern}  # shortest
-${S##pattern} # longest
+${S#pattern}               # shortest
+${S##pattern}              # longest
 # from behind
-${S%pattern}  # shortest
-${S%%pattern} # longest
-```
+${S%pattern}
+${S%%pattern}
 
 ### replace pattern
-
-```bash
-${S/pattern/replacement}  # shortest
-${S//pattern/replacement} # longest
-
-${S/#pattern/replacement} # from front
+# any
+${S/pattern/replacement}   # shortest
+${S//pattern/replacement}  # longest
+# from front
+${S/#pattern/replacement}
 ${A[@]/#/new_prefix}
-
-${S/%pattern/replacement} # from behind
+# from behind
+${S/%pattern/replacement}
 ${A[@]/%/new_suffix}
-```
 
 ### sizes and indices
-
-```bash
-${#S}     # string length
-${#A[@]}  # array size
-${#A[0]}  # string length
-
-${!A[@]}  # array indices (0-based)
-${!Aa[@]} # keys
-```
+${#S}                      # string length
+${#A[0]}                   # string length
+${#A[@]}                   # array size
+${!A[@]}                   # array indices (0-based)
+${!Aa[@]}                  # array keys
 
 ### subset
-
-```bash
-${S:2}      # from front
-${S:(-3)}   # from behind
-${S:2:1}    # from front by length
-${A[@]:2:1} # from index by elements
-```
+${S:2}                     # from front
+${S:(-3)}                  # from behind
+${S:2:1}                   # from front by length
+${A[@]:2:1}                # from index by elements
 
 ### print
-
-```bash
 printf '%s\n' ${A[@]}
 ```
 
-### examples
+**Examples**
 
 ```bash
 ${V/#*.} # file ending
 ${V##*.} # file ending
 ${V##*/} # basename
 ```
-
