@@ -11,10 +11,13 @@ where you can find out what I am interested in.
 
 ## me
 
-* Career started at *Audi AG* as **Industrial Mechanic** - *Vorsprung durch Technik*
-* Studying **Biology** at *Wuerzburg University* and becoming a **Linux enthusiast**
-* Studying *barley* to improve products among *whiskey* and *beer* (: at the *Max Planch Institute for Plant Breeding Research, Cologne* and becoming skilled in **Statistics** and **Programming**
-* Consulting and acting as **Data Analyst** in the area of **Bioinformatics** at the *Max Planch Institute for Biology of Ageing, Cologne*
+* Career started at *Audi AG* as **Industrial Mechanic** - *Vorsprung durch Technik*.
+* Studying **Biology** at *Wuerzburg University* and becoming a **Linux enthusiast**.
+* Studying *barley* to improve products among *whiskey* and *beer* (: at the
+    *Max Planch Institute for Plant Breeding Research, Cologne* and becoming skilled in
+    **Statistics** and **Programming**.
+* Consulting and acting as **Data Analyst** in the area of **Bioinformatics** at the
+    *Max Planch Institute for Biology of Ageing, Cologne*.
 
 ## technologies
 
