@@ -14,24 +14,41 @@ Information on the bourne again shell (bash).
 
 ## Environment
 
-**Shell Type**
+**interactive login**
 
-login shell
+Invoked by
 
-* from another host (ssh)  
-* from local text console (tty)  
-* OSX Terminal
+* `/bin/login`, e.g. `ssh` without command, or local text console (tty)
+* `bash --login`
+* `Terminal.app` from macOS
 
-interactive shell
+using
 
-* terminal (emulator), e.g. gnome-terminal, xterm
+* `/etc/profile`
+* `~/.bash_profile`
+* `~/.bash_login`
+* `~/.profile`
 
-**Environment Files**
+**interactive non-login**
 
-* `/etc/profile`: login shell
-* `~/.bash_profile`: login shell
-* `~/.profile`: login shell (others: `.login`, `.zlogin`)
-* `~/.bashrc:` interactive shell
+Invoked by
+
+* `bash` from prompt, excluding option `-c` and `file` argument
+* `/bin/su`
+* a terminal emulator, e.g.  `xterm`, `console` or `gnome-terminal`
+
+using
+
+* `/etc/bashrc`
+* `~/.bashrc`
+
+**non-interactive**
+
+Invoked by
+
+* `bash file`
+
+using the parent environment.
 
 ## Variables
 
