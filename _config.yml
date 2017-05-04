@@ -19,16 +19,8 @@ navbar:
     title: about
   - slug: blog
     title: blog
-  - slug: code
-    title: code
-  - slug: manuals
-    title: manuals
-collections:
-  manuals:
-    permalink: /manuals/:title
-    output: true
-exclude:
-  - "*.Rmd"
+  - slug: projects
+    title: projects
 #safe: true
 #lsi: false
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# {code}
+# {projects}
 
 ## [modulenv][me_gh]{:target="_blank"} [![github.com/setempler/modulenv/releases/latest][me_ghr_svg]][me_ghr]
 Python package for controlling [module][mod] software environments.
