@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# manuals ...
+# {manuals}
 
 Find some useful information about software and programming on the following pages:
 
