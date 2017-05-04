@@ -2,62 +2,67 @@
 layout: default
 ---
 
-# about ...
+# {about}
 
 Welcome to my homepage!
 
-Here you will find an introduction about myself, and some links to sources 
-where you can find out what I am interested in.
+## story
 
-## me
+My name is Sven, and I am enthusiastic about technology, science and live.
 
-* Career started at *Audi AG* as **Industrial Mechanic** - *Vorsprung durch Technik*.
-* Studying **Biology** at *Wuerzburg University* and becoming a **Linux enthusiast**.
-* Studying *barley* to improve products among *whiskey* and *beer* (: at the
-    *Max Planch Institute for Plant Breeding Research, Cologne* and becoming skilled in
-    **Statistics** and **Programming**.
-* Consulting and acting as **Data Analyst** in the area of **Bioinformatics** at the
-    *Max Planch Institute for Biology of Ageing, Cologne*.
+I was trained in a lot of different areas (e.g. manufacturing, research, sales).
+For example, my career started at *Audi*, where I got trained and worked as **Industrial Mechanic**.
+I went on studying at the beautiful town of Würzburg to become a **Biologist**.
+During that time, I worked in sales and consulting for a local **Orchid Care** company.
+Moving on to the city of Köln (Cologne) to start a PhD in agricultural science
+at a *Max Planck Institute*, I got infected with **Statistics** and **Programming**.
+To expand my knowledge in *Bioinformatics*, I started working in a research service facility
+to support scientist discover the hidden features of the biology of ageing.
+Now I apply all my expertise to develop applications specific for the technologies
+of Germany's largest **Biotechnology** company *Miltenyi Biotec*.
 
-## technologies
+## expertise and interests
 
-I prefer to engineer software in the languages
+Software Languages
 
-* **[Julia][jl]{:target="_blank"}** - a modern language for statistical computing
-* **[R][r]{:target="_blank"}** - a statistical computing language
-* **[C++][cpp]{:target="_blank"}** - a general purpose programming language
-* **[Python][py]{:target="_blank"}** - an interpreted programming and scripting language
-* **[bash][bash]{:target="_blank"}** - shell programming
+* [R][r]{:target="_blank"}
+* [Julia][jl]{:target="_blank"}
+* [Python][py]{:target="_blank"}
+* [C++][cpp]{:target="_blank"}
+* [Bash][bash]{:target="_blank"}
 
-The fields of statistical analysis I am competent and interested in are
+Statistical Methods
 
-* **Linear Models** - estimate and predict effects
-* **Multivariate Analysis** - find patterns in data
-* **Genetical Statistics** - analyse genetic data (from sequencing to population genetics)
-* **Machine Learning** - learn from data, predict the future
+* Linear models
+* Multivariate analysis
+* Genetical statistics (NGS to population genetics)
+* Machine learning
 
-IT Systems I like and am trained to use are
+Information Technologies
 
-* **Linux Servers** - from web-, database-, compute- to multimedia workstations
-* **Mac OS Systems** - great and easy to use platform to connect to IT infrastructure
+* Linux & MacOS workstations
+* High performance compute clusters
+* Webserver
+* Databases
 
-## further information
+## contact
 
-Find me at twitter (**[@setempler][twt]**), follow my **[blog](/blog)**, or read about my
-**[research][scholar]**.
+Via Online Platforms
 
-Parts of software engineering and documentation I am involved with, can be seen on this site's
-sections **[Code](/code)** and **[Manuals](/manuals)**, or on my **[github][hub]** profile.
+* [Github][hub]
+* [Twitter][twt]
+* [Research Gate][rgate]
+* [Google Scholar][scholar]
 
-Interested in my profile? I am always looking forward to meet nice people and get inspired by new
-discoveries and technologies - please do not hesitate to contact me!
+Contact me also via email to sven dot templer, at gmail dot com.
 
-[hub]: https://github.com/setempler
 [cpp]: https://isocpp.org
 [bash]: https://www.gnu.org/software/bash/
 [py]: https://www.python.org
 [jl]: http://julialang.org
 [r]: https://www.r-project.org
+
+[hub]: https://github.com/setempler
 [rgate]: https://www.researchgate.net/profile/Sven_Templer/publications
 [scholar]: https://scholar.google.de/citations?user=G5ryn90AAAAJ&hl=en
 [twt]: https://twitter.com/setempler
