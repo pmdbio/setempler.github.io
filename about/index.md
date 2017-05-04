@@ -16,7 +16,7 @@ I went on studying at the beautiful town of Würzburg to become a **Biologist**.
 During that time, I worked in sales and consulting for a local **Orchid Care** company.
 Moving on to the city of Köln (Cologne) to start a PhD in agricultural science
 at a *Max Planck Institute*, I got infected with **Statistics** and **Programming**.
-To expand my knowledge in *Bioinformatics*, I started working in a research service facility
+To expand my knowledge in **Bioinformatics**, I started working in a research service facility
 to support scientist discover the hidden features of the biology of ageing.
 Now I apply all my expertise to develop applications specific for the technologies
 of Germany's largest **Biotechnology** company *Miltenyi Biotec*.
